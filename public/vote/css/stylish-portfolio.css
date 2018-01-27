@@ -1,0 +1,99 @@
+
+html,
+body {
+    width: auto;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+  overflow-x:hidden;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header h1 {
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+}
+
+.header h4{
+  font-family: 'Bree Serif', serif;
+  color: #ffffff;
+
+}
+
+.header h2{
+  font-family: 'Bree Serif', serif;
+  color: #ffffff;
+
+}
+
+.header p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+
+}
+
+
+.input-group{
+  font-family: 'Bree Serif', serif;
+}
+
+.img-responsive{
+  width: inherit;
+  margin : 0 auto;
+  height : 100%;
+}
+
+.input-danger{
+  border-color: red;
+}
+
+.input-success{
+  border-color: green;
+}
+
+.thumbnail{
+  border-radius: 0px;
+  font-family: 'Lobster', cursive;
+}
+
+.thumbnail .btn {
+  border-radius: 50px;
+  padding: 20px;
+}
+
+
+.alert{
+  border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0px;
+}
